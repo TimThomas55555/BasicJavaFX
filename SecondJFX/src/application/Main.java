@@ -19,8 +19,9 @@ public class Main extends Application {
 
 
 
-		FXMLLoader loader = new FXMLLoader(getClass().getResource("vista4.fxml"));
-
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("Forest.fxml"));
+		loader.setController(new SetBlur());
+		
 		mypane = (AnchorPane) loader.load();
 
 		stage.setTitle("Where's the squirrel?");
