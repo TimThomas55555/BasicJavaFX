@@ -24,7 +24,7 @@ public class Main extends Application {
 		
 		mypane = (AnchorPane) loader.load();
 
-		stage.setTitle("Where's the squirrel?");
+		stage.setTitle("¡No se ve el paisaje!");
 		stage.setScene(new Scene(mypane));
 		stage.show();
 	}
