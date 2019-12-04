@@ -24,7 +24,7 @@ public class Main extends Application {
 		
 		mypane = (AnchorPane) loader.load();
 
-		stage.setTitle("¡No se ve el paisaje!");
+		stage.setTitle("¡El paisaje se ve sepia!");
 		stage.setScene(new Scene(mypane));
 		stage.show();
 	}
