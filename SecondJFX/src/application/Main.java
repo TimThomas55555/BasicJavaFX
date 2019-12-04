@@ -9,8 +9,11 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 /**
+ * Aplicación JavaFX que se despliega como una imAgen con 3 botones (Blur, Focus, close), que al ser 
+ * pulsados, realizan modificaciones en la imagen. Blur lo distorsiona, Focus la enfoca y close, cierra la aplicación.
  * @author david
  * @see BlurController
+ * 
  */
 
 
