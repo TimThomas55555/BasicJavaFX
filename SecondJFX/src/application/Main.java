@@ -13,7 +13,6 @@ import javafx.stage.Stage;
  * pulsados, realizan modificaciones en la imagen. Blur lo distorsiona, Focus la enfoca y close, cierra la aplicación.
  * @author david
  * @see BlurController
- * 
  */
 public class Main extends Application {
 
