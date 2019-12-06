@@ -15,8 +15,6 @@ import javafx.stage.Stage;
  * @see BlurController
  * 
  */
-
-
 public class Main extends Application {
 
 	private AnchorPane mypane;
